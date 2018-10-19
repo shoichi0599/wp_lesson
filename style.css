@@ -138,3 +138,46 @@ article img {
   font-size: 14px;
   text-align: center;
 }
+
+/* メニュー */
+.blogmenu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.blogmenu .widget {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #e8e8e8;
+}
+.blogmenu .widgettitle {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-right: solid 10px #4a5f7e;
+  color: #4a5f7e;
+  font-size: 14px;
+}
+.blogmenu li a {
+  display: block;
+  padding: 10px 5px;
+  color: #666666;
+  font-size: 14px;
+  text-decoration: none;
+}
+.blogmenu li a:hover {
+  background-color: #ffffff;
+}
+
+/* 見出し */
+.archive-title {
+  margin-top: 0;
+  margin-bottom: 40px;
+  background-color: #eeeeee;
+  font-size: 14px;
+  font-weight: normal;
+}
+.archive-title i {
+  padding: 15px;
+  background-color: #4a5f7e;
+  color: #ffffff;
+}
