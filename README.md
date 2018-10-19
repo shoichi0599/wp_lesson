@@ -1,2 +1,4 @@
 # wp_lesson
-# Practice for WordPress
+## Overview
+This repository is for practice for WordPress.
+- Create an original theme
