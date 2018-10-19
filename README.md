@@ -8,4 +8,5 @@ Practice:
 
 ## How to apply the theme (wp_lesson)
 cd {wordpress_home}/wp-content/themes
+
 git clone {repository_link}
