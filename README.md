@@ -1,5 +1,5 @@
 ## Overview
-This repository is for practice for WordPress.  
+This repository is to practice WordPress.  
 Practice:
 - Create an original theme
 
