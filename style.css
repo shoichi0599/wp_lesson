@@ -104,6 +104,11 @@ header a {
   margin-top: 5px;
   font-size: 12px;
 }
+header img {
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
 nav ul {
   list-style: none;
   margin: 0;
