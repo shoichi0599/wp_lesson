@@ -2,6 +2,7 @@
 <html lang="ja">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
   <title><?php bloginfo( 'name' ); ?><?php wp_title(); ?></title>
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Acme">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">

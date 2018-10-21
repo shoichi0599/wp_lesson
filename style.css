@@ -300,3 +300,25 @@ article img {
 .wpcf7 .required {
   color: #ff0000;
 }
+
+/* レスポンシブの設定 */
+@media (min-width: 768px) {
+  /* 2段組 */
+  .container {
+    max-width: 1000px;
+    overflow: hidden;
+  }
+  .contents {
+    width: 65%;
+    float: left;
+  }
+  .blogmenu {
+    width: 30%;
+    float: right;
+  }
+
+  /* ナビゲーションメニュー */
+  nav  li {
+    margin-right: 40px;
+  }
+}
