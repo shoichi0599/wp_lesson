@@ -86,6 +86,11 @@ header a {
   overflow: hidden;
   padding-top: 14px;
   padding-bottom: 14px;
+  background-color: #ffffff;
+  color: #4a5f7e;
+}
+.siteinfo a {
+  color: #4a5f7e;
 }
 .siteinfo h1 {
   float: left;
@@ -98,6 +103,29 @@ header a {
   margin: 0px;
   margin-top: 5px;
   font-size: 12px;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  overflow: hidden;
+}
+nav li {
+  float: left;
+  margin-right: 15px;
+}
+nav li a {
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  border-bottom: solid 5px transparent;
+}
+nav li a:hover {
+  border-bottom: solid 5px #00ccff;
+}
+nav li.current-menu-item a {
+  border-bottom-color: #e6cc1c;
 }
 
 /* フッター */
@@ -240,4 +268,35 @@ article img {
 }
 #comments .comment-content {
   margin-left: 30px;
+}
+
+/* お問い合わせフォーム */
+.wpcf7 p {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+.wpcf7 label {
+  font-size: 14px;
+}
+.wpcf7 input, .wpcf7 textarea {
+  width: 100%;
+  padding: 5px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.wpcf7 input[type="submit"] {
+  width: 200px;
+  padding: 10px;
+  border: none;
+  background-color: #e6cc1c;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+.wpcf7 input[type="submit"]:hover {
+  background-color: #ff8800;
+}
+.wpcf7 .required {
+  color: #ff0000;
 }
