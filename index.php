@@ -54,7 +54,19 @@
           </span>
         </div>
 
-        <?php the_content(); ?>
+        <?php if( is_single() ): ?>
+          <?php the_content(); ?>
+        <?php else: ?>
+          <div class="excerpt">
+            <?php if( has_post_thumbnail() ): ?>
+              <p><?php the_post_thumbnail( 'medium' ); ?></p>
+            <?php endif; ?>
+            <?php the_excerpt(); ?>
+            <p class="more">
+              <a href="<?php the_permalink(); ?>">続きを読む <i class="fa fa-chevron-right"></i></a>
+            </p>
+          </div>
+        <?php endif; ?>
 
         <?php if( is_single() ): ?>
           <div class="pagenav">

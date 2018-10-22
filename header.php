@@ -22,11 +22,13 @@
         <p><?php bloginfo( 'description' ); ?></p>
       </div>
     </div>
-    <?php if( get_header_image() ): ?>
-      <img src="<?php header_image(); ?>"
-      width="<?php echo get_custom_header()->width; ?>"
-      height="<?php echo get_custom_header()->height; ?>"
-      alt="">
+    <?php if( !is_front_page() ): ?>
+      <?php if( get_header_image() ): ?>
+        <img src="<?php header_image(); ?>"
+        width="<?php echo get_custom_header()->width; ?>"
+        height="<?php echo get_custom_header()->height; ?>"
+        alt="">
+      <?php endif; ?>
     <?php endif; ?>
     <nav>
       <div class="container">
